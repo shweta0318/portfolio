@@ -24,7 +24,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("home/", v1.home_view),
+    path("", v1.home_view),
     path("contact_me/", v1.contact_form2),
     path("send-message/", v1.contact_formtest),
     path("test-page1/", v1.temp_view),
