@@ -1,0 +1,8 @@
+
+<h1>spons please enter the products you want to endourse though us </h1>
+{% block content %}
+<form action = '.' method='POST'> {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value = 'save' />
+</form>
+{% endblock %} 
